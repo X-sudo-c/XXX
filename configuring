@@ -5,6 +5,12 @@ git config --global user.email x1dragonn@gmail.com
 git config --global core.editor "code --wait"
 
 $ git config --global core.autocrlf true
+          
+          if on linux or macOS:
+
+ $ git config --global core.autocrlf input
+
+
 
 
 
