@@ -1,0 +1,15 @@
+total 52
+drwxr-xr-x 4 xx xx 4096 Apr 23 21:07 .
+drwxr-xr-x 5 xx xx 4096 Apr 23 12:43 ..
+-rw-r--r-- 1 xx xx  273 Apr 23 10:42 configuring
+drwxr-xr-x 8 xx xx 4096 Apr 23 10:42 .git
+-rw-r--r-- 1 xx xx   41 Apr 23 10:42 .gitignore
+-rw-r--r-- 1 xx xx    0 Apr 23 21:34 output.txt
+-rw-r--r-- 1 xx xx  635 Apr 23 14:34 POC2.py
+-rw-r--r-- 1 xx xx  600 Apr 23 12:41 POC.py
+-rw-r--r-- 1 xx xx  137 Apr 23 10:42 README.md
+-rw-r--r-- 1 xx xx  117 Apr 23 10:42 requirements.txt
+-rw-r--r-- 1 xx xx  298 Apr 23 21:34 subps.py
+drwxr-xr-x 5 xx xx 4096 Apr 23 10:46 venv
+-rw-r--r-- 1 xx xx 1299 Apr 23 10:42 xx.py
+-rw-r--r-- 1 xx xx 3828 Apr 23 10:42 xxx.py
