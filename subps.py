@@ -7,7 +7,7 @@ def main():
 
 
     try:
-        proc = subprocess.run(["cat", "output.txt"], capture_output=True , text = True)
+        proc = subprocess.run(["cat", "output.txt"], capture_output=True , text = True) #we are using the cat command line tool to view ooutput.txt
 
         if proc.returncode != 0:
             print(f"The command didnt ran returned ({proc.returncode})")
@@ -15,7 +15,7 @@ def main():
     
         else:
             try:
-                grep = subprocess.run(["grep", "-n" , "POC"], capture_output=True, text = True, input=proc.stdout )
+                grep = subprocess.run(["grep", "-n" , "POC"], capture_output=True, text = True, input=proc.stdout ) #we have piped the command using the input parameter 
 
                 if grep.returncode == 0:
                     print(grep.stdout)
@@ -30,7 +30,7 @@ def main():
                 print (grep.stderr)
 
     except subprocess.CalledProcessError as e:
-        print(g.stderr)
+        print(grep.stderr)
 
 
 
